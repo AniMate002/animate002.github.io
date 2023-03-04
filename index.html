@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julee&family=Tilt+Neon&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body onload="funOnload()">
+    
+
+        <div class="main row">
+            <div class="left_memu col-lg-8 col-md-12 col-sm-12">
+                <div class="water_mark">Made by Vash</div>
+                <div class="info_bottom">
+                    <div class="bot_temperature">16°</div>
+                    <div class="second_block">
+                        <div class="bot_city">London</div>
+                        <div class="bot_time">06.09 - Monday, 9 Sep 19</div>
+                    </div>
+                    <div class="third_block">
+                        <div class="bot_icon"><i class="fa-solid fa-cloud-sun"></i></div>
+                        <div class="bot_desc">Cloudy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_menu col-lg-4 col-md-12 col-sm-12">
+                <div class="menu_nav">
+                    <input id="search" class="input_search" placeholder="Another location">
+                    <div id="scale" class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <ul id="users" class="all_cities">
+
+
+                </ul>
+                <div class="barrier"></div>
+                <div class="details">
+                    <div class="title">Weather Details</div>
+                    <div class="detail_item"><div class="text">Cloudy</div> <div class="cloudy_value">86%</div></div>
+                    <div class="detail_item"><div class="text">Feels Like</div> <div class="feelsLike_value">15°</div></div>
+                    <div class="detail_item"><div class="text">Visibility</div> <div class="visibility_value">50</div></div>
+                    <div class="detail_item"><div class="text">Wind speed</div> <div class="windSpeed_value">20 km/h</div></div>
+                    <div class="detail_item"><div class="text">Humidity</div> <div class="humidity_value">40%</div></div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+       
+
+    <!-- <input type="text" id="input_city" placeholder="enter city"> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
